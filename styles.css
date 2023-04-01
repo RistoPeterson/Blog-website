@@ -1,0 +1,91 @@
+.wrap {
+  background: rgba(0,0,0,0.5) url("blogphoto.jpg") no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 100vh;
+  overflow: hidden;
+  background-blend-mode: overlay;
+}
+
+.content {
+ text-align: center;
+ padding: 200px 80px 0;
+ color: #fff
+}
+
+/* Add padding to containers */
+.container {
+  padding: 70px 20px 0;
+  background-color: #fff;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+  border-radius: 5px;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+input[type=text]:hover, input[type=password]:hover {
+    border-color: grey;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(126, 239, 104, 0.6);
+    outline: 0 none;
+}
+
+/* Overwrite default styles of hr */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for the submit button */
+.registerbtn {
+  background-color: #04AA6D;
+  color: #fff;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity: 1;
+}
+
+
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.card-img-top {
+    width: 30rem;
+    height: 30rem;
+}
+
+.card-img-top-1 {
+    width: 15rem;
+    height: 15rem;
+}
+
+
+.wave {
+ position: absolute;
+ width: 100%;
+ bottom: -100px;
+ opacity: 1;
+
+}
